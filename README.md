@@ -1,8 +1,17 @@
-# React + Vite
+### To use the fake API:
+- Install the server:
+```
+npm install -g json-server@0.17.4    
+```
+- Run the server
+```
+npx json-server --watch db.json
+```
+- Close the server:
+```javascript
+Ctrl + C
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+>Note: Use tweo sepearate terminal to use run the API and the Project at the same time
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>Hint: [Alt] + Click the '+' icon
